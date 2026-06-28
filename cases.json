@@ -1,0 +1,302 @@
+[
+  {
+    "title": "Egyptian Temple Sarcophagus",
+    "tag": "Companion video preview",
+    "prompt": "An ancient Egyptian temple interior at noon: a single shaft of light enters through a ceiling aperture, striking a golden sarcophagus that blazes against the surrounding darkness.",
+    "sdr": "assets/videos/nofirst_prompt_042_sdr_exposure_ev0_h264_preview.mp4",
+    "hdr": "assets/videos/nofirst_prompt_042_hdr_aces_sl1_ev0_h264_preview.mp4",
+    "defaultHdrExposure": "0",
+    "hdrVariants": {
+      "-4": "assets/videos/nofirst_prompt_042_hdr_aces_sl1_evm4_h264_preview.mp4",
+      "-3": "assets/videos/nofirst_prompt_042_hdr_aces_sl1_evm3_h264_preview.mp4",
+      "-2": "assets/videos/nofirst_prompt_042_hdr_aces_sl1_evm2_h264_preview.mp4",
+      "-1": "assets/videos/nofirst_prompt_042_hdr_aces_sl1_evm1_h264_preview.mp4",
+      "0": "assets/videos/nofirst_prompt_042_hdr_aces_sl1_ev0_h264_preview.mp4",
+      "1": "assets/videos/nofirst_prompt_042_hdr_aces_sl1_evp1_h264_preview.mp4",
+      "2": "assets/videos/nofirst_prompt_042_hdr_aces_sl1_evp2_h264_preview.mp4",
+      "3": "assets/videos/nofirst_prompt_042_hdr_aces_sl1_evp3_h264_preview.mp4",
+      "4": "assets/videos/nofirst_prompt_042_hdr_aces_sl1_evp4_h264_preview.mp4"
+    },
+    "sdrVariants": {
+      "-4": "assets/videos/nofirst_prompt_042_sdr_exposure_evm4_h264_preview.mp4",
+      "-3": "assets/videos/nofirst_prompt_042_sdr_exposure_evm3_h264_preview.mp4",
+      "-2": "assets/videos/nofirst_prompt_042_sdr_exposure_evm2_h264_preview.mp4",
+      "-1": "assets/videos/nofirst_prompt_042_sdr_exposure_evm1_h264_preview.mp4",
+      "0": "assets/videos/nofirst_prompt_042_sdr_exposure_ev0_h264_preview.mp4",
+      "1": "assets/videos/nofirst_prompt_042_sdr_exposure_evp1_h264_preview.mp4",
+      "2": "assets/videos/nofirst_prompt_042_sdr_exposure_evp2_h264_preview.mp4",
+      "3": "assets/videos/nofirst_prompt_042_sdr_exposure_evp3_h264_preview.mp4",
+      "4": "assets/videos/nofirst_prompt_042_sdr_exposure_evp4_h264_preview.mp4"
+    }
+  },
+  {
+    "title": "Dragon Dance Festival",
+    "tag": "Companion video preview",
+    "prompt": "A traditional Chinese dragon dance at night during Lunar New Year, with golden scales catching firecracker flashes and red lantern light.",
+    "sdr": "assets/videos/nofirst_prompt_049_sdr_exposure_ev0_h264_preview.mp4",
+    "hdr": "assets/videos/nofirst_prompt_049_hdr_aces_sl0p55_evm1_h264_preview.mp4",
+    "defaultHdrExposure": "-1",
+    "hdrVariants": {
+      "-4": "assets/videos/nofirst_prompt_049_hdr_aces_sl0p55_evm4_h264_preview.mp4",
+      "-3": "assets/videos/nofirst_prompt_049_hdr_aces_sl0p55_evm3_h264_preview.mp4",
+      "-2": "assets/videos/nofirst_prompt_049_hdr_aces_sl0p55_evm2_h264_preview.mp4",
+      "-1": "assets/videos/nofirst_prompt_049_hdr_aces_sl0p55_evm1_h264_preview.mp4",
+      "0": "assets/videos/nofirst_prompt_049_hdr_aces_sl0p55_ev0_h264_preview.mp4",
+      "1": "assets/videos/nofirst_prompt_049_hdr_aces_sl0p55_evp1_h264_preview.mp4",
+      "2": "assets/videos/nofirst_prompt_049_hdr_aces_sl0p55_evp2_h264_preview.mp4",
+      "3": "assets/videos/nofirst_prompt_049_hdr_aces_sl0p55_evp3_h264_preview.mp4",
+      "4": "assets/videos/nofirst_prompt_049_hdr_aces_sl0p55_evp4_h264_preview.mp4"
+    },
+    "sdrVariants": {
+      "-4": "assets/videos/nofirst_prompt_049_sdr_exposure_evm4_h264_preview.mp4",
+      "-3": "assets/videos/nofirst_prompt_049_sdr_exposure_evm3_h264_preview.mp4",
+      "-2": "assets/videos/nofirst_prompt_049_sdr_exposure_evm2_h264_preview.mp4",
+      "-1": "assets/videos/nofirst_prompt_049_sdr_exposure_evm1_h264_preview.mp4",
+      "0": "assets/videos/nofirst_prompt_049_sdr_exposure_ev0_h264_preview.mp4",
+      "1": "assets/videos/nofirst_prompt_049_sdr_exposure_evp1_h264_preview.mp4",
+      "2": "assets/videos/nofirst_prompt_049_sdr_exposure_evp2_h264_preview.mp4",
+      "3": "assets/videos/nofirst_prompt_049_sdr_exposure_evp3_h264_preview.mp4",
+      "4": "assets/videos/nofirst_prompt_049_sdr_exposure_evp4_h264_preview.mp4"
+    }
+  },
+  {
+    "title": "Molten Lava Coastline",
+    "tag": "Companion video preview",
+    "prompt": "Molten lava pours over a cliff edge into the ocean at dusk, with blazing orange magma meeting midnight-blue water in explosive steam plumes.",
+    "sdr": "assets/videos/nofirst_prompt_013_sdr_exposure_ev0_h264_preview.mp4",
+    "hdr": "assets/videos/nofirst_prompt_013_hdr_aces_sl0p8_evm1_h264_preview.mp4",
+    "defaultHdrExposure": "-1",
+    "hdrVariants": {
+      "-4": "assets/videos/nofirst_prompt_013_hdr_aces_sl0p8_evm4_h264_preview.mp4",
+      "-3": "assets/videos/nofirst_prompt_013_hdr_aces_sl0p8_evm3_h264_preview.mp4",
+      "-2": "assets/videos/nofirst_prompt_013_hdr_aces_sl0p8_evm2_h264_preview.mp4",
+      "-1": "assets/videos/nofirst_prompt_013_hdr_aces_sl0p8_evm1_h264_preview.mp4",
+      "0": "assets/videos/nofirst_prompt_013_hdr_aces_sl0p8_ev0_h264_preview.mp4",
+      "1": "assets/videos/nofirst_prompt_013_hdr_aces_sl0p8_evp1_h264_preview.mp4",
+      "2": "assets/videos/nofirst_prompt_013_hdr_aces_sl0p8_evp2_h264_preview.mp4",
+      "3": "assets/videos/nofirst_prompt_013_hdr_aces_sl0p8_evp3_h264_preview.mp4",
+      "4": "assets/videos/nofirst_prompt_013_hdr_aces_sl0p8_evp4_h264_preview.mp4"
+    },
+    "sdrVariants": {
+      "-4": "assets/videos/nofirst_prompt_013_sdr_exposure_evm4_h264_preview.mp4",
+      "-3": "assets/videos/nofirst_prompt_013_sdr_exposure_evm3_h264_preview.mp4",
+      "-2": "assets/videos/nofirst_prompt_013_sdr_exposure_evm2_h264_preview.mp4",
+      "-1": "assets/videos/nofirst_prompt_013_sdr_exposure_evm1_h264_preview.mp4",
+      "0": "assets/videos/nofirst_prompt_013_sdr_exposure_ev0_h264_preview.mp4",
+      "1": "assets/videos/nofirst_prompt_013_sdr_exposure_evp1_h264_preview.mp4",
+      "2": "assets/videos/nofirst_prompt_013_sdr_exposure_evp2_h264_preview.mp4",
+      "3": "assets/videos/nofirst_prompt_013_sdr_exposure_evp3_h264_preview.mp4",
+      "4": "assets/videos/nofirst_prompt_013_sdr_exposure_evp4_h264_preview.mp4"
+    }
+  },
+  {
+    "title": "Derelict Space Station",
+    "tag": "Companion video preview",
+    "prompt": "A lone astronaut floats through the shattered hull of a derelict space station as sunlight streams through jagged metal tears.",
+    "sdr": "assets/videos/nofirst_prompt_012_sdr_exposure_ev0_h264_preview.mp4",
+    "hdr": "assets/videos/nofirst_prompt_012_hdr_aces_sl1_evm1_h264_preview.mp4",
+    "defaultHdrExposure": "-1",
+    "hdrVariants": {
+      "-4": "assets/videos/nofirst_prompt_012_hdr_aces_sl1_evm4_h264_preview.mp4",
+      "-3": "assets/videos/nofirst_prompt_012_hdr_aces_sl1_evm3_h264_preview.mp4",
+      "-2": "assets/videos/nofirst_prompt_012_hdr_aces_sl1_evm2_h264_preview.mp4",
+      "-1": "assets/videos/nofirst_prompt_012_hdr_aces_sl1_evm1_h264_preview.mp4",
+      "0": "assets/videos/nofirst_prompt_012_hdr_aces_sl1_ev0_h264_preview.mp4",
+      "1": "assets/videos/nofirst_prompt_012_hdr_aces_sl1_evp1_h264_preview.mp4",
+      "2": "assets/videos/nofirst_prompt_012_hdr_aces_sl1_evp2_h264_preview.mp4",
+      "3": "assets/videos/nofirst_prompt_012_hdr_aces_sl1_evp3_h264_preview.mp4",
+      "4": "assets/videos/nofirst_prompt_012_hdr_aces_sl1_evp4_h264_preview.mp4"
+    },
+    "sdrVariants": {
+      "-4": "assets/videos/nofirst_prompt_012_sdr_exposure_evm4_h264_preview.mp4",
+      "-3": "assets/videos/nofirst_prompt_012_sdr_exposure_evm3_h264_preview.mp4",
+      "-2": "assets/videos/nofirst_prompt_012_sdr_exposure_evm2_h264_preview.mp4",
+      "-1": "assets/videos/nofirst_prompt_012_sdr_exposure_evm1_h264_preview.mp4",
+      "0": "assets/videos/nofirst_prompt_012_sdr_exposure_ev0_h264_preview.mp4",
+      "1": "assets/videos/nofirst_prompt_012_sdr_exposure_evp1_h264_preview.mp4",
+      "2": "assets/videos/nofirst_prompt_012_sdr_exposure_evp2_h264_preview.mp4",
+      "3": "assets/videos/nofirst_prompt_012_sdr_exposure_evp3_h264_preview.mp4",
+      "4": "assets/videos/nofirst_prompt_012_sdr_exposure_evp4_h264_preview.mp4"
+    }
+  },
+  {
+    "title": "Factory Welding Robots",
+    "tag": "Companion video preview",
+    "prompt": "Industrial robots weld a car chassis in a darkened factory, with blinding white-blue arc flashes and cascading sparks.",
+    "sdr": "assets/videos/nofirst_prompt_035_sdr_exposure_ev0_h264_preview.mp4",
+    "hdr": "assets/videos/nofirst_prompt_035_hdr_aces_sl1_evm1_h264_preview.mp4",
+    "defaultHdrExposure": "-1",
+    "hdrVariants": {
+      "-4": "assets/videos/nofirst_prompt_035_hdr_aces_sl1_evm4_h264_preview.mp4",
+      "-3": "assets/videos/nofirst_prompt_035_hdr_aces_sl1_evm3_h264_preview.mp4",
+      "-2": "assets/videos/nofirst_prompt_035_hdr_aces_sl1_evm2_h264_preview.mp4",
+      "-1": "assets/videos/nofirst_prompt_035_hdr_aces_sl1_evm1_h264_preview.mp4",
+      "0": "assets/videos/nofirst_prompt_035_hdr_aces_sl1_ev0_h264_preview.mp4",
+      "1": "assets/videos/nofirst_prompt_035_hdr_aces_sl1_evp1_h264_preview.mp4",
+      "2": "assets/videos/nofirst_prompt_035_hdr_aces_sl1_evp2_h264_preview.mp4",
+      "3": "assets/videos/nofirst_prompt_035_hdr_aces_sl1_evp3_h264_preview.mp4",
+      "4": "assets/videos/nofirst_prompt_035_hdr_aces_sl1_evp4_h264_preview.mp4"
+    },
+    "sdrVariants": {
+      "-4": "assets/videos/nofirst_prompt_035_sdr_exposure_evm4_h264_preview.mp4",
+      "-3": "assets/videos/nofirst_prompt_035_sdr_exposure_evm3_h264_preview.mp4",
+      "-2": "assets/videos/nofirst_prompt_035_sdr_exposure_evm2_h264_preview.mp4",
+      "-1": "assets/videos/nofirst_prompt_035_sdr_exposure_evm1_h264_preview.mp4",
+      "0": "assets/videos/nofirst_prompt_035_sdr_exposure_ev0_h264_preview.mp4",
+      "1": "assets/videos/nofirst_prompt_035_sdr_exposure_evp1_h264_preview.mp4",
+      "2": "assets/videos/nofirst_prompt_035_sdr_exposure_evp2_h264_preview.mp4",
+      "3": "assets/videos/nofirst_prompt_035_sdr_exposure_evp3_h264_preview.mp4",
+      "4": "assets/videos/nofirst_prompt_035_sdr_exposure_evp4_h264_preview.mp4"
+    }
+  },
+  {
+    "title": "Molten Steel Foundry",
+    "tag": "Companion video preview",
+    "prompt": "Molten steel pours from a ladle in a foundry, glowing white-yellow as it illuminates workers and a vast dark hall.",
+    "sdr": "assets/videos/nofirst_prompt_046_sdr_exposure_ev0_h264_preview.mp4",
+    "hdr": "assets/videos/nofirst_prompt_046_hdr_aces_sl1p2_ev0_h264_preview.mp4",
+    "defaultHdrExposure": "0",
+    "hdrVariants": {
+      "-4": "assets/videos/nofirst_prompt_046_hdr_aces_sl1p2_evm4_h264_preview.mp4",
+      "-3": "assets/videos/nofirst_prompt_046_hdr_aces_sl1p2_evm3_h264_preview.mp4",
+      "-2": "assets/videos/nofirst_prompt_046_hdr_aces_sl1p2_evm2_h264_preview.mp4",
+      "-1": "assets/videos/nofirst_prompt_046_hdr_aces_sl1p2_evm1_h264_preview.mp4",
+      "0": "assets/videos/nofirst_prompt_046_hdr_aces_sl1p2_ev0_h264_preview.mp4",
+      "1": "assets/videos/nofirst_prompt_046_hdr_aces_sl1p2_evp1_h264_preview.mp4",
+      "2": "assets/videos/nofirst_prompt_046_hdr_aces_sl1p2_evp2_h264_preview.mp4",
+      "3": "assets/videos/nofirst_prompt_046_hdr_aces_sl1p2_evp3_h264_preview.mp4",
+      "4": "assets/videos/nofirst_prompt_046_hdr_aces_sl1p2_evp4_h264_preview.mp4"
+    },
+    "sdrVariants": {
+      "-4": "assets/videos/nofirst_prompt_046_sdr_exposure_evm4_h264_preview.mp4",
+      "-3": "assets/videos/nofirst_prompt_046_sdr_exposure_evm3_h264_preview.mp4",
+      "-2": "assets/videos/nofirst_prompt_046_sdr_exposure_evm2_h264_preview.mp4",
+      "-1": "assets/videos/nofirst_prompt_046_sdr_exposure_evm1_h264_preview.mp4",
+      "0": "assets/videos/nofirst_prompt_046_sdr_exposure_ev0_h264_preview.mp4",
+      "1": "assets/videos/nofirst_prompt_046_sdr_exposure_evp1_h264_preview.mp4",
+      "2": "assets/videos/nofirst_prompt_046_sdr_exposure_evp2_h264_preview.mp4",
+      "3": "assets/videos/nofirst_prompt_046_sdr_exposure_evp3_h264_preview.mp4",
+      "4": "assets/videos/nofirst_prompt_046_sdr_exposure_evp4_h264_preview.mp4"
+    }
+  },
+  {
+    "title": "Spotlit Ballerina Stage",
+    "tag": "Companion video preview",
+    "prompt": "A ballerina performs a grand jete across a darkened stage, tracked by a single spotlight against a black void.",
+    "sdr": "assets/videos/nofirst_prompt_015_sdr_exposure_ev0_h264_preview.mp4",
+    "hdr": "assets/videos/nofirst_prompt_015_hdr_aces_sl1p2_evm1_h264_preview.mp4",
+    "defaultHdrExposure": "-1",
+    "hdrVariants": {
+      "-4": "assets/videos/nofirst_prompt_015_hdr_aces_sl1p2_evm4_h264_preview.mp4",
+      "-3": "assets/videos/nofirst_prompt_015_hdr_aces_sl1p2_evm3_h264_preview.mp4",
+      "-2": "assets/videos/nofirst_prompt_015_hdr_aces_sl1p2_evm2_h264_preview.mp4",
+      "-1": "assets/videos/nofirst_prompt_015_hdr_aces_sl1p2_evm1_h264_preview.mp4",
+      "0": "assets/videos/nofirst_prompt_015_hdr_aces_sl1p2_ev0_h264_preview.mp4",
+      "1": "assets/videos/nofirst_prompt_015_hdr_aces_sl1p2_evp1_h264_preview.mp4",
+      "2": "assets/videos/nofirst_prompt_015_hdr_aces_sl1p2_evp2_h264_preview.mp4",
+      "3": "assets/videos/nofirst_prompt_015_hdr_aces_sl1p2_evp3_h264_preview.mp4",
+      "4": "assets/videos/nofirst_prompt_015_hdr_aces_sl1p2_evp4_h264_preview.mp4"
+    },
+    "sdrVariants": {
+      "-4": "assets/videos/nofirst_prompt_015_sdr_exposure_evm4_h264_preview.mp4",
+      "-3": "assets/videos/nofirst_prompt_015_sdr_exposure_evm3_h264_preview.mp4",
+      "-2": "assets/videos/nofirst_prompt_015_sdr_exposure_evm2_h264_preview.mp4",
+      "-1": "assets/videos/nofirst_prompt_015_sdr_exposure_evm1_h264_preview.mp4",
+      "0": "assets/videos/nofirst_prompt_015_sdr_exposure_ev0_h264_preview.mp4",
+      "1": "assets/videos/nofirst_prompt_015_sdr_exposure_evp1_h264_preview.mp4",
+      "2": "assets/videos/nofirst_prompt_015_sdr_exposure_evp2_h264_preview.mp4",
+      "3": "assets/videos/nofirst_prompt_015_sdr_exposure_evp3_h264_preview.mp4",
+      "4": "assets/videos/nofirst_prompt_015_sdr_exposure_evp4_h264_preview.mp4"
+    }
+  },
+  {
+    "title": "Hot Air Balloon Dawn",
+    "tag": "Companion video preview",
+    "prompt": "A hot air balloon festival at dawn, with balloons glowing from within like giant paper lanterns against a pre-dawn indigo sky.",
+    "sdr": "assets/videos/nofirst_prompt_036_sdr_exposure_ev0_h264_preview.mp4",
+    "hdr": "assets/videos/nofirst_prompt_036_hdr_aces_sl0p8_evm1_h264_preview.mp4",
+    "defaultHdrExposure": "-1",
+    "hdrVariants": {
+      "-4": "assets/videos/nofirst_prompt_036_hdr_aces_sl0p8_evm4_h264_preview.mp4",
+      "-3": "assets/videos/nofirst_prompt_036_hdr_aces_sl0p8_evm3_h264_preview.mp4",
+      "-2": "assets/videos/nofirst_prompt_036_hdr_aces_sl0p8_evm2_h264_preview.mp4",
+      "-1": "assets/videos/nofirst_prompt_036_hdr_aces_sl0p8_evm1_h264_preview.mp4",
+      "0": "assets/videos/nofirst_prompt_036_hdr_aces_sl0p8_ev0_h264_preview.mp4",
+      "1": "assets/videos/nofirst_prompt_036_hdr_aces_sl0p8_evp1_h264_preview.mp4",
+      "2": "assets/videos/nofirst_prompt_036_hdr_aces_sl0p8_evp2_h264_preview.mp4",
+      "3": "assets/videos/nofirst_prompt_036_hdr_aces_sl0p8_evp3_h264_preview.mp4",
+      "4": "assets/videos/nofirst_prompt_036_hdr_aces_sl0p8_evp4_h264_preview.mp4"
+    },
+    "sdrVariants": {
+      "-4": "assets/videos/nofirst_prompt_036_sdr_exposure_evm4_h264_preview.mp4",
+      "-3": "assets/videos/nofirst_prompt_036_sdr_exposure_evm3_h264_preview.mp4",
+      "-2": "assets/videos/nofirst_prompt_036_sdr_exposure_evm2_h264_preview.mp4",
+      "-1": "assets/videos/nofirst_prompt_036_sdr_exposure_evm1_h264_preview.mp4",
+      "0": "assets/videos/nofirst_prompt_036_sdr_exposure_ev0_h264_preview.mp4",
+      "1": "assets/videos/nofirst_prompt_036_sdr_exposure_evp1_h264_preview.mp4",
+      "2": "assets/videos/nofirst_prompt_036_sdr_exposure_evp2_h264_preview.mp4",
+      "3": "assets/videos/nofirst_prompt_036_sdr_exposure_evp3_h264_preview.mp4",
+      "4": "assets/videos/nofirst_prompt_036_sdr_exposure_evp4_h264_preview.mp4"
+    }
+  },
+  {
+    "title": "Supercell Thunderstorm",
+    "tag": "Companion video preview",
+    "prompt": "A supercell thunderstorm rolls across flat Kansas farmland at golden hour, with a green storm underbelly, molten sunset horizon, and a lone farmhouse in shadow.",
+    "sdr": "assets/videos/nofirst_prompt_017_sdr_exposure_ev0_h264_preview.mp4",
+    "hdr": "assets/videos/nofirst_prompt_017_hdr_aces_sl1_ev0_h264_preview.mp4",
+    "defaultHdrExposure": "0",
+    "hdrVariants": {
+      "-4": "assets/videos/nofirst_prompt_017_hdr_aces_sl1_evm4_h264_preview.mp4",
+      "-3": "assets/videos/nofirst_prompt_017_hdr_aces_sl1_evm3_h264_preview.mp4",
+      "-2": "assets/videos/nofirst_prompt_017_hdr_aces_sl1_evm2_h264_preview.mp4",
+      "-1": "assets/videos/nofirst_prompt_017_hdr_aces_sl1_evm1_h264_preview.mp4",
+      "0": "assets/videos/nofirst_prompt_017_hdr_aces_sl1_ev0_h264_preview.mp4",
+      "1": "assets/videos/nofirst_prompt_017_hdr_aces_sl1_evp1_h264_preview.mp4",
+      "2": "assets/videos/nofirst_prompt_017_hdr_aces_sl1_evp2_h264_preview.mp4",
+      "3": "assets/videos/nofirst_prompt_017_hdr_aces_sl1_evp3_h264_preview.mp4",
+      "4": "assets/videos/nofirst_prompt_017_hdr_aces_sl1_evp4_h264_preview.mp4"
+    },
+    "sdrVariants": {
+      "-4": "assets/videos/nofirst_prompt_017_sdr_exposure_evm4_h264_preview.mp4",
+      "-3": "assets/videos/nofirst_prompt_017_sdr_exposure_evm3_h264_preview.mp4",
+      "-2": "assets/videos/nofirst_prompt_017_sdr_exposure_evm2_h264_preview.mp4",
+      "-1": "assets/videos/nofirst_prompt_017_sdr_exposure_evm1_h264_preview.mp4",
+      "0": "assets/videos/nofirst_prompt_017_sdr_exposure_ev0_h264_preview.mp4",
+      "1": "assets/videos/nofirst_prompt_017_sdr_exposure_evp1_h264_preview.mp4",
+      "2": "assets/videos/nofirst_prompt_017_sdr_exposure_evp2_h264_preview.mp4",
+      "3": "assets/videos/nofirst_prompt_017_sdr_exposure_evp3_h264_preview.mp4",
+      "4": "assets/videos/nofirst_prompt_017_sdr_exposure_evp4_h264_preview.mp4"
+    }
+  },
+  {
+    "title": "Glass-Blower Workshop",
+    "tag": "Companion video preview",
+    "prompt": "A glass-blower shapes molten crystal in a dim workshop, where the incandescent orange orb lights their face and hands while the room falls into warm shadow.",
+    "sdr": "assets/videos/nofirst_prompt_023_sdr_exposure_ev0_h264_preview.mp4",
+    "hdr": "assets/videos/nofirst_prompt_023_hdr_aces_sl1p2_evm1_h264_preview.mp4",
+    "defaultHdrExposure": "-1",
+    "hdrVariants": {
+      "-4": "assets/videos/nofirst_prompt_023_hdr_aces_sl1p2_evm4_h264_preview.mp4",
+      "-3": "assets/videos/nofirst_prompt_023_hdr_aces_sl1p2_evm3_h264_preview.mp4",
+      "-2": "assets/videos/nofirst_prompt_023_hdr_aces_sl1p2_evm2_h264_preview.mp4",
+      "-1": "assets/videos/nofirst_prompt_023_hdr_aces_sl1p2_evm1_h264_preview.mp4",
+      "0": "assets/videos/nofirst_prompt_023_hdr_aces_sl1p2_ev0_h264_preview.mp4",
+      "1": "assets/videos/nofirst_prompt_023_hdr_aces_sl1p2_evp1_h264_preview.mp4",
+      "2": "assets/videos/nofirst_prompt_023_hdr_aces_sl1p2_evp2_h264_preview.mp4",
+      "3": "assets/videos/nofirst_prompt_023_hdr_aces_sl1p2_evp3_h264_preview.mp4",
+      "4": "assets/videos/nofirst_prompt_023_hdr_aces_sl1p2_evp4_h264_preview.mp4"
+    },
+    "sdrVariants": {
+      "-4": "assets/videos/nofirst_prompt_023_sdr_exposure_evm4_h264_preview.mp4",
+      "-3": "assets/videos/nofirst_prompt_023_sdr_exposure_evm3_h264_preview.mp4",
+      "-2": "assets/videos/nofirst_prompt_023_sdr_exposure_evm2_h264_preview.mp4",
+      "-1": "assets/videos/nofirst_prompt_023_sdr_exposure_evm1_h264_preview.mp4",
+      "0": "assets/videos/nofirst_prompt_023_sdr_exposure_ev0_h264_preview.mp4",
+      "1": "assets/videos/nofirst_prompt_023_sdr_exposure_evp1_h264_preview.mp4",
+      "2": "assets/videos/nofirst_prompt_023_sdr_exposure_evp2_h264_preview.mp4",
+      "3": "assets/videos/nofirst_prompt_023_sdr_exposure_evp3_h264_preview.mp4",
+      "4": "assets/videos/nofirst_prompt_023_sdr_exposure_evp4_h264_preview.mp4"
+    }
+  }
+]

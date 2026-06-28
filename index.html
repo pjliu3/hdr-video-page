@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Versatile HDR Video Generation</title>
+    <meta
+      name="description"
+      content="A result-first project page for Versatile HDR Video Generation."
+    >
+    <link rel="stylesheet" href="styles.css?v=20260628-preview15">
+  </head>
+  <body>
+    <main>
+      <section id="results" class="hero page-section title-hero">
+        <div id="hero-grid" class="hero-grid" aria-label="Representative HDR video results"></div>
+        <div class="hero-shade"></div>
+        <div class="title-lockup">
+          <h1>Versatile HDR Video Generation</h1>
+        </div>
+      </section>
+
+      <section id="demo" class="section page-section page-wide demo-section">
+        <div class="section-heading">
+          <p class="eyebrow">Demo</p>
+          <h2>One framework across HDR video tasks</h2>
+        </div>
+        <div class="demo-wrap">
+          <video
+            class="demo-video"
+            src="assets/videos/tog_demo_final_h264_720p.mp4"
+            controls
+            playsinline
+            preload="metadata"
+          ></video>
+        </div>
+      </section>
+
+      <section id="interactive-comparison" class="section page-section page-bleed compare-section">
+        <div class="section-heading">
+          <p class="eyebrow">Exposure control</p>
+          <h2>SDR input and tone-mapped HDR output</h2>
+        </div>
+        <div class="control-strip exposure-control-panel">
+          <label class="select-label">
+            Case
+            <select id="case-select"></select>
+          </label>
+          <label class="range-label">
+            Display EV <span id="ev-value">0</span>
+            <input id="exposure-slider" type="range" min="-4" max="4" value="0" step="1">
+            <span class="ev-ticks" aria-hidden="true">
+              <span>-4</span>
+              <span>-3</span>
+              <span>-2</span>
+              <span>-1</span>
+              <span>0</span>
+              <span>+1</span>
+              <span>+2</span>
+              <span>+3</span>
+              <span>+4</span>
+            </span>
+          </label>
+        </div>
+        <div class="comparison-stage" aria-label="Selected SDR and HDR videos">
+          <figure class="video-panel">
+            <figcaption>SDR input</figcaption>
+            <video id="compare-sdr" muted loop playsinline controls preload="none"></video>
+          </figure>
+          <figure class="video-panel featured">
+            <figcaption>HDR output, tone-mapped preview</figcaption>
+            <video id="compare-hdr" muted loop playsinline controls preload="none"></video>
+          </figure>
+        </div>
+        <p id="case-prompt" class="case-prompt"></p>
+      </section>
+
+      <section id="text-to-hdr" class="section page-section page-bleed">
+        <div class="section-heading">
+          <p class="eyebrow">Result gallery</p>
+          <h2>Representative HDR scenarios</h2>
+        </div>
+        <div id="gallery-grid" class="gallery-grid" aria-label="HDR video gallery"></div>
+      </section>
+
+      <section id="before-after" class="section page-section page-wide before-section">
+        <div class="section-heading">
+          <p class="eyebrow">Before / after</p>
+          <h2>Drag across the same scene</h2>
+        </div>
+        <div class="before-after-stage" style="--clip: 50%">
+          <video id="before-video" class="before-video" muted loop playsinline preload="none"></video>
+          <video id="after-video" class="after-video" muted loop playsinline preload="none"></video>
+          <div class="divider" aria-hidden="true"></div>
+          <span class="ba-label ba-left">SDR</span>
+          <span class="ba-label ba-right">HDR preview</span>
+        </div>
+        <input id="before-after-slider" class="wide-slider" type="range" min="0" max="100" value="50" aria-label="Before after split">
+      </section>
+
+      <section id="highlights" class="section page-section page-story paper-section paper-exhibit">
+        <div class="paper-exhibit-wrap">
+          <div class="paper-exhibit-header">
+            <div>
+              <p class="eyebrow">Core idea</p>
+              <h2>HDR as a gain-map video</h2>
+            </div>
+            <p class="paper-lede">Keep the SDR generator responsible for content and motion, then learn a synchronized gain-map video that expands scene radiometry.</p>
+          </div>
+          <div class="paper-figure-stage">
+            <figure class="paper-figure">
+              <img src="assets/figures/fig_overview.png" alt="Paper figure showing the versatile HDR video generation paradigm.">
+              <figcaption>Fig. 1. Unified HDR video generation for text-to-video, image-to-video, controllable generation, and editing.</figcaption>
+            </figure>
+          </div>
+          <div class="paper-note-grid">
+            <article class="paper-note">
+              <strong>SDR prior</strong>
+              <span>Freeze the pretrained video branch so structure, camera motion, and object motion stay stable.</span>
+            </article>
+            <article class="paper-note">
+              <strong>Gain-map layer</strong>
+              <span>Predict standard-compatible radiometric expansion instead of replacing the generated SDR clip.</span>
+            </article>
+            <article class="paper-note">
+              <strong>Efficient inference</strong>
+              <span>Token Cache reaches 3.4x theoretical speedup by refreshing only salient gain-map tokens.</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="method" class="section page-section page-story paper-section paper-exhibit">
+        <div class="paper-exhibit-wrap">
+          <div class="paper-exhibit-header">
+            <div>
+              <p class="eyebrow">Method</p>
+              <h2>Shared latent, selective computation</h2>
+            </div>
+            <p class="paper-lede">The two branches share early denoising states so HDR appearance follows the same geometry, while cached tokens skip stable regions.</p>
+          </div>
+          <div class="paper-figure-stage">
+            <figure class="paper-figure">
+              <img src="assets/figures/fig_method.png" alt="Paper figure showing Shared-Latent Coupling and Token Cache in the dual-branch diffusion framework.">
+              <figcaption>Fig. 3. Shared-Latent Coupling reduces branch misalignment; Token Cache removes redundant gain-map computation.</figcaption>
+            </figure>
+          </div>
+          <div class="paper-note-grid">
+            <article class="paper-note">
+              <strong>Shared-Latent Coupling</strong>
+              <span>Reuse early trajectories before re-noising to preserve structural alignment across branches.</span>
+            </article>
+            <article class="paper-note">
+              <strong>Token Cache</strong>
+              <span>Update high-change gain-map regions and reuse cached predictions elsewhere.</span>
+            </article>
+            <article class="paper-note">
+              <strong>HDR reconstruction</strong>
+              <span>Combine SDR frames and gain maps into display-ready HDR video.</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="dataset" class="section page-section page-story paper-section paper-exhibit">
+        <div class="paper-exhibit-wrap">
+          <div class="paper-exhibit-header">
+            <div>
+              <p class="eyebrow">Dataset and evaluation</p>
+              <h2>HDRVid-18K paired video corpus</h2>
+            </div>
+            <p class="paper-lede">18,937 aligned SDR, HDR, gain-map clips, and captions emphasize difficult illumination: fire, stage lights, reflective metal, bright skies, and dark interiors.</p>
+          </div>
+          <div class="paper-figure-stage">
+            <figure class="paper-figure">
+              <img src="assets/figures/fig_dataset.png" alt="Paper figure showing HDRVid-18K scene distribution, dynamic range statistics, and paired samples.">
+              <figcaption>Fig. 5. HDRVid-18K covers diverse semantics, dynamic-range statistics, and aligned SDR/HDR/gain-map samples.</figcaption>
+            </figure>
+          </div>
+          <div class="paper-note-grid">
+            <article class="paper-note">
+              <strong>18,937 clips</strong>
+              <span>Strictly paired SDR/HDR/gain-map videos with text captions.</span>
+            </article>
+            <article class="paper-note">
+              <strong>9.77 EV mean</strong>
+              <span>Average gain-map expansion across the filtered training corpus.</span>
+            </article>
+            <article class="paper-note">
+              <strong>12.38 EV p90</strong>
+              <span>Professional HDR study checks contrast, highlight detail, and temporal consistency.</span>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Project page draft for Versatile HDR Video Generation.</p>
+    </footer>
+
+    <script type="module" src="main.js?v=20260628-preview15"></script>
+  </body>
+</html>
